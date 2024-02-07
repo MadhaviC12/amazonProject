@@ -1,0 +1,59 @@
+.product{
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   justify-content: flex-end;
+   min-width: 100px;
+   max-height: 400px;
+   padding: 20px;
+   width:100%;
+   background-color: white;
+   z-index:1 ;
+   margin: 10px;
+}
+
+.product__info{
+    height:100px;
+    margin-bottom: 15px;
+}
+
+.product__price{
+    margin-top: 5px;
+}
+
+.product__rating{
+    display: flex;
+    color: #f0c14b;
+    
+}
+
+.product > img {
+    max-height: 200px;
+    width:100%;
+    object-fit: contain;
+    margin-bottom: 15px; ;
+}
+
+.product > button{
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+    
+}
+
+/* Add this to your existing CSS file or create a new one */
+.alert {
+    position: fixed;
+    font-weight: bold;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  

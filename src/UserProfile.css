@@ -1,0 +1,35 @@
+/* UserProfile.css */
+
+.user_profile {
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  
+  .comment_table {
+    width:90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 60px;
+    
+   
+  }
+  
+  .comment_table th,
+  .comment_table td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .comment_table th {
+    background-color: #f0c14b;
+  }
+  
+  /* .comment_table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  } */
+  
+  /* .comment_table tr:hover {
+    background-color: #f1f1f1;
+  } */

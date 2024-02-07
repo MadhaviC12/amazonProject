@@ -1,0 +1,98 @@
+/* Checkout.css */
+.checkout {
+    margin: 20px;
+  }
+  
+  
+  .checkout__item {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  
+  .checkout__itemImage {
+    object-fit: contain;
+    width: 120px;
+    max-height: 150px;
+    margin-right: 20px;
+  }
+  
+  .checkout__itemInfo {
+    flex: 1;
+  }
+  
+  .checkout__itemTitle {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .checkout__itemPrice {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color:#b12704;
+  }
+  .checkout__itemIncreasePrice
+  {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    color:#b12704;
+    background-color:#f0c14b;
+    padding:2px 6px;
+    max-height: 70px;
+    max-width: 110px;
+    
+  }
+
+  .checkout__showChart{
+    
+    display: inline;
+    vertical-align: middle;
+  }
+  
+
+  .checkout__quantityControls button{
+    background-color: #f0c14b;
+    color:#111;
+    border:none;
+    padding:5px 10px;
+    cursor:pointer;
+    transition:background-color 0.3s;
+  }
+  .checkout__quantityControls .delete{
+    color: #b12704;
+    display: inline;
+    vertical-align: middle;
+    padding: 5px;
+    cursor: pointer;
+    transition:background-color 0.3s;
+  }
+
+  .checkout__quantityControls .delete:hover{
+    background-color: #f0c14b;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    
+  }
+
+  
+  .checkout__quantityControls button:hover{
+    background-color:#ddb347;
+  }
+
+  .checkout__quantityControls span {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  .checkout__total {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #ddd; /* Separator line*/
+    font-size: 24px; /*  total price font size */
+    font-weight: 700;
+    color: #b12704; /* price color */
+  }
+
